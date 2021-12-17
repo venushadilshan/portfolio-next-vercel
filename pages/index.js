@@ -25,7 +25,7 @@ export default function Home({}) {
       <DesignSection/>
       <Background3/>
       <FeedbackSection/>
-    
+      <ContactSection/>
       <Footer/>
       
    
