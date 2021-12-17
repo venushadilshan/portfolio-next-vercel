@@ -1,10 +1,4 @@
-import Link from "next/link";
-import tesla from "../assets/tesla.png";
-import lono from "../assets/lono.png";
-import travel from "../assets/travel.png";
-import playhub from "../assets/playhub.png";
-import ImageCard from './ImageCard';
-import ProjectCard from './ProjectCard';
+
 const FeedbackSection = () => {
     return (
         <div className="bg-gray-800 ">

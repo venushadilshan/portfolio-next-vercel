@@ -11,6 +11,8 @@ import Background2 from '../components/Background2'
 import Background3 from '../components/Background3'
 import DesignSection from '../components/DesignSection'
 import FeedbackSection from '../components/FeedbackSection'
+import Footer from '../components/Footer'
+import ContactSection from '../components/ContactSection'
 export default function Home({}) {
   return (
     <div>
@@ -23,6 +25,9 @@ export default function Home({}) {
       <DesignSection/>
       <Background3/>
       <FeedbackSection/>
+    
+      <Footer/>
+      
    
   
     </div>
