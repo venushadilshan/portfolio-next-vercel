@@ -1,5 +1,8 @@
 
-
+import tesla from "../assets/tesla.png";
+import lono from "../assets/lono.png";
+import travel from "../assets/travel.png";
+import playhub from "../assets/playhub.png";
 import ImageCard from './ImageCard';
 import ProjectCard from './ProjectCard';
 const DesignSection = () => {
@@ -15,11 +18,13 @@ const DesignSection = () => {
                 <div className="center-container mt-20 ">
 
 
-                    <div className="flex flex-row items-start justify-around mb-10 w-full px-1 lg:px-40 flex-wrap z-20 ">
+                    <div className="flex flex-row items-start justify-evenly mb-10 w-full px-5 lg:px-40 px-1 z-20 flex-wrap lg:flex-nowrap ">
 
-                        <ImageCard projectDescription="Intelligent Plant Disease Detection System" projectName="Dr.Plant" />
-                        <ImageCard projectDescription="Intelligent Plant Disease Detection System" projectName="Dr.Plant" />
-                        <ImageCard projectDescription="Intelligent Plant Disease Detection System" projectName="Dr.Plant" />
+                        <ImageCard image={tesla} />
+                        <ImageCard image={travel} />
+                        <ImageCard image={playhub} />
+                        <ImageCard image={lono} />
+                       
                        
 
 
