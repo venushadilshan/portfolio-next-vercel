@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.rocket
+{
+  
+  transition: all 15s;
+}
+.rocket:hover
+{
+  transform: rotateZ(360deg);
+  transition: all 25s;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 99vw;
+}
+
+.rocket-anim
+{
+  animation-name: float-rkt ;
+  animation-timing-function: ease;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+  
+}
+
+@keyframes float-rkt {
+  0%
+  {
+    transform: rotateZ(0deg);
+   
+  }
+
+  50%
+  {
+    transform: rotateZ(3deg);
+   
+   
+  }
+  100%
+  {
+    transform: rotateZ(0deg);
+   
+  }
+ 
+ 
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .bg-element {
+    display: none;
+  }
+}
