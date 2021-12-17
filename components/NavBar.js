@@ -45,7 +45,7 @@ const NavBar = (props) => {
 
     return (
 
-        <nav className="bg-gray-800 py-2 fixed w-screen z-10">
+        <nav className="bg-gray-800 py-2 fixed w-screen z-10 backdrop-blur-md">
             <div className="flex flex-row justify-between items-center">
                 <a class="text-white px-3 py-2  text-sm font-medium ml-5"><Image src={logo} width="60" height="30"/></a>
                 <div>
