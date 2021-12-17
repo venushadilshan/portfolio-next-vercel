@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 import tesla from "../assets/tesla.png";
 import lono from "../assets/lono.png";
 import travel from "../assets/travel.png";
@@ -26,15 +26,18 @@ const DesignSection = () => {
                         <ImageCard image={lono} />
                        
                        
-
-
-
-
-
-
+                
 
                     </div>
+                    
                 </div>
+                <div className="center-container">
+                <Link href={{
+                        pathname: '/Viewer',
+                        query: { name: 'test' },
+                    }}><button className="bg-violet-500 self-center text-slate-200 px-5 py-5 w-44 rounded mb-3 hover:bg-violet-800 duration-200">View All</button></Link>
+                </div>
+                
 
             </div>
 

@@ -1,5 +1,6 @@
 
 
+import Link from 'next/link';
 import ProjectCard from './ProjectCard';
 const ProjectSection = () => {
     return (
@@ -23,18 +24,17 @@ const ProjectSection = () => {
                         <ProjectCard projectDescription="Smart QR Attendance System and App" projectName="IQR - Smart Attendance System " />
 
 
-                        <ProjectCard projectDescription="SFT Panthiya Official App, Website and CMS" projectName="A/L Technology"/>
-
-
-
-
-
-
+                        <ProjectCard projectDescription="SFT Panthiya Official App, Website and CMS" projectName="A/L Technology" />
 
 
                     </div>
                 </div>
-
+                <div className="center-container">
+                    <Link href={{
+                        pathname: '/Viewer',
+                        query: { url: 'https://github.com/venushadilshan' },
+                    }}><div className="bg-violet-500 self-center text-slate-200 px-4 py-5 w-44 rounded  hover:bg-violet-800 duration-200 ">See more on GitHub</div></Link>
+                </div>
             </div>
 
         </div>);
