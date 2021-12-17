@@ -13,7 +13,7 @@ const Cover = () => {
 
     const iconSize = 40;
     return (
-        <div className=" h-screen bg-gray-800 lg:bg-[url('../assets/bg.png')] bg-cover">
+        <div className=" h-screen bg-gray-800 lg:bg-[url('../assets/bg.png')] bg-cover pt-20">
             <div className="flex flex-col justify-center item-center h-screen ">
                 <div className="flex flex-row items-center justify-around flex-wrap">
                     <div>
