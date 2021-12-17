@@ -7,15 +7,15 @@ const ProjectSection = () => {
         <div className="bg-gray-800 ">
             <div className="container ">
 
-                <div className="center-container ">
-                    <h1 className="text-stone-50 text-center text-3xl mt-24">My Recent Projects </h1>
+                <div className="center-container z-20 ">
+                    <h1 className="text-stone-50 text-center text-3xl mt-24 z-20">My Recent Projects </h1>
                 </div>
 
 
                 <div className="center-container mt-20 ">
 
 
-                    <div className="flex flex-row items-start justify-evenly mb-10 w-full px-1 lg:px-40 flex-wrap z-20 ">
+                    <div className="flex flex-row items-start justify-evenly lg:justify-start mb-10 w-full lg:px-40 flex-wrap z-20 ">
 
                         <ProjectCard projectDescription="Intelligent Plant Disease Detection System" projectName="Dr.Plant" />
                         <ProjectCard projectDescription="A daily news app" projectName="Exypnos " />
