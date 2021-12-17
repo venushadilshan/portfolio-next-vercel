@@ -30,7 +30,7 @@ const ProjectSection = () => {
                     </div>
                 </div>
                 <div className="center-container">
-                    <Link href={{pathname: 'https://github.com/venushadilshan' }}><div className="bg-violet-500 self-center text-slate-200 px-4 py-5 w-44 rounded  hover:bg-violet-800 duration-200 ">See more on GitHub</div></Link>
+                    <Link href={{pathname: 'https://github.com/venushadilshan' }}><div className="bg-violet-500 self-center text-slate-200 px-4 py-5 w-44 rounded  hover:bg-violet-800 duration-200 text-center">See more on GitHub</div></Link>
                 </div>
             </div>
 
