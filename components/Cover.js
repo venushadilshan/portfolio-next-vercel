@@ -13,13 +13,14 @@ const Cover = () => {
 
     const iconSize = 40;
     return (
-        <div className=" h-screen bg-gray-800 lg:bg-[url('../assets/bg.png')] bg-cover pt-20">
+        <div className=" h-screen bg-gray-800 lg:bg-[url('../assets/bg.png')] bg-cover pt-20 ">
             <div className="flex flex-col justify-center item-center h-screen ">
                 <div className="flex flex-row items-center justify-around flex-wrap">
-                    <div className="flex flex-col w-1/2">
+                    <div className="flex flex-col w-1/2 items-center
+                    ">
                     <h1 className="font-sans text-5xl font-thin text-stone-50 text-center "><span className="font-semibold">Hola!</span>👋<br></br>I'm VENUSHA </h1> 
                     <p className="font-sans text-lg text-stone-50 text-center ">Developer, UI Designer, Graphic Designer</p>
-                    <div className="flex flex-row justify-evenly pt-8 px-40 w-full ">
+                    <div className="flex flex-row lg:justify-evenly pt-8 w-full lg:w-1/2  ">
                         <Image src={react_icon}  width={iconSize} height={iconSize} />
                         <Image src={html_icon}  width={iconSize} height={iconSize}/>
                         <Image src={css_icon}  width={iconSize} height={iconSize}/>
