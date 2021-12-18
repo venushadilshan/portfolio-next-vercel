@@ -15,7 +15,7 @@ const ContactSection = () => {
         formData.append("email", email)
         formData.append("msg", msg)
         axios.post(endpoint, formData)
-            .then(res => (console.log(res.data)))
+            .then(alert("Message sent successfully"))
             .catch(err => console.log(err))
 
 
@@ -34,12 +34,12 @@ const ContactSection = () => {
 
 
                 <div className="flex flex-row  items-center justify-center w-full flex-wrap lg:flex-nowrap lg:px-96 mt-10 ">
-                    <input onChange={(e) => { setEmail(e.target.value); console.log(email) }} name="email" value={email} className="  z-20 bg-zinc-300  w-full m-2 h-8 pl-2 rounded" type="text" placeholder="Email" />
-                    <input onChange={(e) => { setName(e.target.value); console.log(name) }} name="name" value={name} className="  z-20 bg-zinc-300 w-full h-8 m-2 pl-2 rounded" type="text" placeholder="Name" />
+                    <input onChange={(e) => { setEmail(e.target.value) }} name="email" value={email} className="  z-20 bg-zinc-300  w-full m-2 h-8 pl-2 rounded" type="text" placeholder="Email" />
+                    <input onChange={(e) => { setName(e.target.value) }} name="name" value={name} className="  z-20 bg-zinc-300 w-full h-8 m-2 pl-2 rounded" type="text" placeholder="Name" />
 
                 </div>
                 <div className="flex flex-row  items-center justify-center w-full flex-wrap lg:px-96">
-                    <textarea onChange={(e) => { setMsg(e.target.value); console.log(msg) }} name="msg" value={msg} className="  z-20 bg-zinc-300 m-2 pl-2 w-full h-72 rounded" placeholder="Message"></textarea>
+                    <textarea onChange={(e) => { setMsg(e.target.value) }} name="msg" value={msg} className="  z-20 bg-zinc-300 m-2 pl-2 w-full h-72 rounded" placeholder="Message"></textarea>
 
                 </div>
                 <div className="flex flex-row  items-center justify-center w-full flex-wrap lg:px-96">
