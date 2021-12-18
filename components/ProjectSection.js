@@ -7,7 +7,7 @@ const ProjectSection = () => {
         <div className="bg-gray-800 ">
             <div className="container ">
 
-                <div className="center-container z-20 ">
+                <div className="center-container z-20 " id="projects">
                     <h1 className="text-stone-50 text-center text-3xl mt-44 z-20">My Recent Projects </h1>
                 </div>
 

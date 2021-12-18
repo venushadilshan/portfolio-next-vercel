@@ -22,7 +22,7 @@ const ContactSection = () => {
     }
 
     return (
-        <div className="bg-gray-800 pb-20">
+        <div className="bg-gray-800 pb-20" id="contact">
 
             <div className="center-container ">
                 <h1 className="text-stone-50 text-center text-3xl mt-24">Connect with me </h1>

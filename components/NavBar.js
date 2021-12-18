@@ -58,8 +58,8 @@ const NavBar = (props) => {
                     <div class="hidden sm:block sm:ml-6  mr-10 items-center  md:flex sm:hidden ld:flex">
                         <div className="text-slate-50 lex space-x-4 ">
                             <Link href="/"><a className={router.pathname == "/" ? activeNav : defaultNav}>Home</a></Link>
-                            <Link href="/projects"><a className={router.pathname == "/Projects" ? activeNav : defaultNav}>Projects</a></Link>
-                            <Link href="/contact"><a className={router.pathname == "/contact" ? activeNav : defaultNav}>Contact</a></Link>
+                            <Link href="/#projects" ><a className={router.pathname == "/#projects" ? activeNav : defaultNav}>Projects</a></Link>
+                            <Link href="/#contact"><a className={router.pathname == "/#contact" ? activeNav : defaultNav}>Contact</a></Link>
 
                         </div>
                     </div>

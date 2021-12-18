@@ -21,7 +21,7 @@ export default function Home({}) {
       <Background/>
       <WhoAmI/>
       <Background2/>
-      <ProjectSection/>
+      <ProjectSection id="projects"/>
       <DesignSection/>
       <Background3/>
       <FeedbackSection/>
