@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import Link from 'next/link';
 import icon_project from '../assets/icon_project.svg';
 const ProjectCard = (props) => {
     return (     
@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
             </div>
            
       
-            <button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">Learn More</button>
+            <Link href={{pathname: props.linkTo }}><button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">Learn More</button></Link>
          
         </div> );
 }

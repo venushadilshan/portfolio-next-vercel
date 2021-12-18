@@ -15,16 +15,16 @@ const ProjectSection = () => {
                 <div className="center-container mt-20 ">
 
 
-                    <div className="flex flex-row items-start justify-evenly lg:justify-start mb-10 w-full lg:px-40 flex-wrap z-20 ">
+                    <div className="flex flex-row items-start justify-between md:justify-start  mb-10 w-full lg:px-40 flex-wrap z-20 ">
 
-                        <ProjectCard projectDescription="Intelligent Plant Disease Detection System" projectName="Dr.Plant" />
-                        <ProjectCard projectDescription="A daily news app" projectName="Exypnos " />
-                        <ProjectCard projectDescription="#1 ICT Learning App in Sri Lanka" projectName="ICT Guru" />
-                        <ProjectCard projectDescription="Next-gen Learning Management System" projectName="Phoenix LMS" />
-                        <ProjectCard projectDescription="Smart QR Attendance System and App" projectName="IQR - Smart Attendance System " />
+                        <ProjectCard linkTo={"https://drplant.venusha.com/app"} projectDescription="Intelligent Plant Disease Detection System" projectName="Dr.Plant" />
+                        <ProjectCard linkTo={"https://github.com/ipmanlk/exypnos-app"} projectDescription="A daily news app" projectName="Exypnos " />
+                        <ProjectCard  linkTo={"https://ictguru.lk"} projectDescription="#1 ICT Learning App in Sri Lanka" projectName="ICT Guru" />
+                        <ProjectCard  linkTo={"https://github.com/ipmanlk/Phoenix-LMS"} projectDescription="Next-gen Learning Management System" projectName="Phoenix LMS" />
+                        <ProjectCard linkTo={"https://github.com/TeamDMX/SmartAttendance-UI"} projectDescription="Smart QR Attendance System and App" projectName="IQR - Smart Attendance System " />
 
 
-                        <ProjectCard projectDescription="SFT Panthiya Official App, Website and CMS" projectName="A/L Technology" />
+                        <ProjectCard linkTo={"https://altechnology.lk/"}  projectDescription="SFT Panthiya Official App, Website and CMS" projectName="A/L Technology" />
 
 
                     </div>
