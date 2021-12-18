@@ -71,9 +71,9 @@ const NavBar = (props) => {
             <div className="contaier" style={{ display: mobileMenu }}>
                 <div className="flex flex-row justify-start">
                     <div className="flex flex-col ml-5 ">
-                        <a class="text-gray-300 hover:bg-blue-700 hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                        <a class="text-gray-300 hover:bg-blue-700 hover:text-blue px-3 py-2 rounded-md text-sm font-medium">Project</a>
-                        <a class="text-gray-300 hover:bg-blue-700 hover:text-blue px-3 py-2 rounded-md text-sm font-medium ">Contact</a>
+                    <Link href="/"><a className={router.pathname == "/" ? activeNav : defaultNav}>Home</a></Link>
+                            <Link href="/#projects" ><a className={router.pathname == "/#projects" ? activeNav : defaultNav}>Projects</a></Link>
+                            <Link href="/#contact"><a className={router.pathname == "/#contact" ? activeNav : defaultNav}>Contact</a></Link>
                     </div>
                 </div>
 
