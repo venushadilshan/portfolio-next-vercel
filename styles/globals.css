@@ -35,6 +35,15 @@ body {
   width: 99vw;
 }
 
+.float-anim
+{
+  animation-name: float ;
+  animation-timing-function: ease;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+
+}
+
 .rocket-anim
 {
   animation-name: float-rkt ;
@@ -63,8 +72,27 @@ body {
     transform: rotateZ(0deg);
    
   }
+
+
+  
  
  
+}
+
+@keyframes float {
+	0% {
+		
+		transform: translate3d(0px,0px,0px);
+	}
+	50% {
+		
+    transform: translate3d(10px,100px,200px);
+    opacity: 0.5;
+	}
+	100% {
+	
+    transform: translate3d(0px,0px,0px);
+	}
 }
 
 

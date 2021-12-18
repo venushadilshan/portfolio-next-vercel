@@ -17,6 +17,8 @@ export default function Home({}) {
   return (
     <div>
       <NavBar />
+      <Background3/>
+      <Background2/>
       <Cover/>
       <Background/>
       <WhoAmI/>

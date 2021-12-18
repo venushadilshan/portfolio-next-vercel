@@ -16,24 +16,25 @@ const Cover = () => {
         <div className=" h-screen bg-gray-800 lg:bg-[url('../assets/bg.png')] bg-cover pt-20">
             <div className="flex flex-col justify-center item-center h-screen ">
                 <div className="flex flex-row items-center justify-around flex-wrap">
-                    <div>
-                    <h1 className="font-sans text-5xl font-thin text-stone-50 text-center "><span className="font-semibold">Hola!</span> <br></br>I'm VENUSHA </h1> 
+                    <div className="flex flex-col w-1/2">
+                    <h1 className="font-sans text-5xl font-thin text-stone-50 text-center "><span className="font-semibold">Hola!</span>👋<br></br>I'm VENUSHA </h1> 
                     <p className="font-sans text-lg text-stone-50 text-center ">Developer, UI Designer, Graphic Designer</p>
-                    <div className="flex flex-row justify-around pt-8">
-                        <Image src={react_icon}  width={iconSize} height={iconSize}/>
+                    <div className="flex flex-row justify-evenly pt-8 px-40 w-full ">
+                        <Image src={react_icon}  width={iconSize} height={iconSize} />
                         <Image src={html_icon}  width={iconSize} height={iconSize}/>
                         <Image src={css_icon}  width={iconSize} height={iconSize}/>
                         <Image src={js_icon}  width={iconSize} height={iconSize}/>
                         <Image src={node_icon}  width={iconSize} height={iconSize}/>
                         <Image src={figma_icon}  width={iconSize} height={iconSize}/>
-                        <Image src={xd_icon}  width={iconSize} height={iconSize}/>
+                        <Image src={xd_icon}  width={iconSize} height={iconSize} />
                        
                      
                         
                     </div>
                     </div>
               
-                 <div className="flex flex-col justify-center  w-4/5  lg:w-6/12">    <Image src={main}   layout="responsive"/></div>
+                 <div className="flex flex-col justify-center  w-4/5  lg:w-6/12">  
+                   <Image src={main}   layout="responsive"/></div>
             
                 </div>
             </div>
