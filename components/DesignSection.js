@@ -11,7 +11,7 @@ const DesignSection = () => {
             <div className="container ">
 
                 <div className="center-container ">
-                    <h1 className="text-stone-50 text-center text-3xl mt-24">My Recent Designs </h1>
+                    <h1 className="text-stone-50 text-center text-3xl mt-44">My Recent Designs </h1>
                 </div>
 
 
