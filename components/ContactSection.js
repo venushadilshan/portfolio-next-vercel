@@ -17,7 +17,7 @@ const ContactSection = () => {
         axios.post(endpoint, formData)
             .then(alert("Message sent successfully"))
             .catch(err => console.log(err))
-
+            alert("Message sent successfully")
 
     }
 
