@@ -31,11 +31,8 @@ const DesignSection = () => {
                     </div>
                     
                 </div>
-                <div className="center-container">
-                <Link href={{
-                        pathname: 'https://behance.net/venushadilshan',
-                       
-                    }}><button className=" z-20 bg-violet-500 self-center text-slate-200 px-5 py-5 w-44 rounded mb-3 hover:bg-violet-800 duration-200">View All</button></Link>
+                <div className="center-container text-center">
+               <a href="https://behance.net/venushadilshan" target="_blank" className="self-center z-20 bg-violet-500 self-center text-slate-200 px-5 py-5 w-44 rounded mb-3 hover:bg-violet-800 duration-200">View All</a>
                 </div>
                 
 

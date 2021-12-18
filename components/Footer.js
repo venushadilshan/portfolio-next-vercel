@@ -7,20 +7,20 @@ const Footer = () => {
             <div>
                 <h1 className="text-zinc-300 text-2xl mb-5 z-20">Social Media</h1>
                 <div className="flex flex-col z-20">
-                <Link href={{pathname: "https://facebook.com/venusha.dilshan" }}><a className="text-blue-400 z-20">Facebook</a></Link>
-                    <Link href={{pathname: "https://twitter.com/VenushaDilshan" }}><a className="text-blue-400 z-20">Twitter</a></Link>
-                    <Link href={{pathname: "https://www.instagram.com/venusha_dilshan_/" }}><a className="text-blue-400 z-20">Instagram</a></Link>
-                    <Link href={{pathname: "https://www.linkedin.com/in/venushadilshan/" }}><a className="text-blue-400 z-20">LinkedIn</a></Link>
+              <a href="https://facebook.com/venusha.dilshan" target="_blank" className="text-blue-400 z-20">Facebook</a>
+                    <a href="https://twitter.com/VenushaDilshan" target="_blank" className="text-blue-400 z-20">Twitter</a>
+                    <a href="https://www.instagram.com/venusha_dilshan_/" target="_blank" className="text-blue-400 z-20">Instagram</a>
+                    <a href="https://www.linkedin.com/in/venushadilshan/" target="_blank" className="text-blue-400 z-20">LinkedIn</a>
                 </div>
 
             </div>
             <div>
                 <h1 className="text-zinc-300 text-2xl mb-5">Quick Links</h1>
                 <div className="flex flex-col">
-                     <Link href={{pathname: "https://github.com/venushadilshan" }}><a className="text-blue-400">GitHub</a></Link>
-                     <Link href={{pathname: "https://ictguru.lk" }}><a className="text-blue-400 z-20">ICT Guru</a></Link>
-                     <Link href={{pathname: "https://dribbble.com/venusha" }}><a className="text-blue-400 z-20">Dribble</a></Link>
-                     <Link href={{pathname: "https://behance.net/venushadilshan" }}><a className="text-blue-400 z-20">Behance</a></Link>
+                     <a href="https://github.com/venushadilshan" target="_blank" className="text-blue-400">GitHub</a>
+                     <a href="https://ictguru.lk" target="_blank" className="text-blue-400 z-20">ICT Guru</a>
+                     <a href="https://dribbble.com/venusha" target="_blank" className="text-blue-400 z-20">Dribble</a>
+                     <a href="https://behance.net/venushadilshan" target="_blank" className="text-blue-400 z-20">Behance</a>
                 </div>
 
             </div>

@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
             </div>
            
       
-            <Link href={{pathname: props.linkTo }}><button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">Learn More</button></Link>
+            <a target="_blank" href={props.linkTo} className=" self-center text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">Learn More</a>
          
         </div> );
 }
