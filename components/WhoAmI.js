@@ -21,7 +21,7 @@ const WhoAmI = () => {
                
                 <Image src={icon_dev} width="80" height="80" />
                 <h1 className="font-sans text-zinc-400 text-lg mt-5 backdrop-blur-md ">Front-End Developing</h1>
-                <button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">See Projects</button>
+                <a href="https://github.com/venushadilshan" target="_blank" className="text-blue-400 z-20"><button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">See Projects</button></a>
              
                
             </div>
@@ -29,7 +29,7 @@ const WhoAmI = () => {
                
                <Image src={icon_ui} width="80" height="80" />
                <h1 className="font-sans text-zinc-400 text-lg mt-5 ">UI UX Designing</h1>
-               <button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">Behance</button>
+               <a href="https://behance.net/venushadilshan" target="_blank" className="text-blue-400 z-20"><button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">Behance</button></a>
               
               
            </div>
@@ -37,7 +37,7 @@ const WhoAmI = () => {
                
                <Image src={icon_design} width="80" height="80" />
                <h1 className="font-sans text-zinc-400 text-lg mt-5">Graphic Designing</h1>
-               <button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">Behance</button>
+               <a href="https://behance.net/venushadilshan" target="_blank" className="text-blue-400 z-20"><button className=" text-sky-500 px-2 py-1 mt-1 rounded hover:text-sky-600">Behance</button></a>
             
            </div>
             
