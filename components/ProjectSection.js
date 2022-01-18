@@ -17,7 +17,7 @@ const ProjectSection = () => {
 
                     <div className="flex flex-row items-start justify-between md:justify-start  mb-10 w-full lg:px-40 flex-wrap z-20 ">
                     <ProjectCard linkTo={"https://github.com/venushadilshan/netflix-next"} projectDescription="A Front-end clone of Netflix made with Next.js" projectName="Netflix Clone" />
-
+                    <ProjectCard linkTo={"https://drplant.venusha.com/app"} projectDescription="Save you notes quickly, access remotely" projectName="Noted!" />
                         <ProjectCard linkTo={"https://drplant.venusha.com/app"} projectDescription="Intelligent Plant Disease Detection System" projectName="Dr.Plant" />
                         <ProjectCard linkTo={"https://github.com/ipmanlk/exypnos-app"} projectDescription="A daily news app" projectName="Exypnos " />
                         <ProjectCard  linkTo={"https://ictguru.lk"} projectDescription="#1 ICT Learning App in Sri Lanka" projectName="ICT Guru" />
